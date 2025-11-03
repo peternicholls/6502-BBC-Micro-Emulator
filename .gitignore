@@ -1,2 +1,17 @@
+# Build artifacts
 build/
-src/6502Emulator/
+Build/
+DerivedData/
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+._*
+
+# Backup folders (temporary)
+*_backup/
+*_tmp/
