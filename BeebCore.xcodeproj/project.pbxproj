@@ -9,24 +9,9 @@
 /* Begin PBXBuildFile section */
 		96B704522EB8687400A4414C /* m6502.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B7042B2EB8687400A4414C /* m6502.h */; };
 		96B704532EB8687400A4414C /* core_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B7044B2EB8687400A4414C /* core_api.h */; };
-		96B704542EB8687400A4414C /* 6502ShiftsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704382EB8687400A4414C /* 6502ShiftsTests.cpp */; };
-		96B704552EB8687400A4414C /* 6502SystemFunctionsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B7043C2EB8687400A4414C /* 6502SystemFunctionsTests.cpp */; };
 		96B704562EB8687400A4414C /* m6502.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704282EB8687400A4414C /* m6502.cpp */; };
-		96B704572EB8687400A4414C /* 6502LoadPrgTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704362EB8687400A4414C /* 6502LoadPrgTests.cpp */; };
-		96B704582EB8687400A4414C /* 6502StackOperationsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704392EB8687400A4414C /* 6502StackOperationsTests.cpp */; };
-		96B704592EB8687400A4414C /* 6502JumpsAndCallsTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704352EB8687400A4414C /* 6502JumpsAndCallsTests.cpp */; };
-		96B7045A2EB8687400A4414C /* 6502BranchTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704322EB8687400A4414C /* 6502BranchTests.cpp */; };
 		96B7045B2EB8687400A4414C /* core_api_stub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704502EB8687400A4414C /* core_api_stub.cpp */; };
-		96B7045C2EB8687400A4414C /* 6502AddWithCarryTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704302EB8687400A4414C /* 6502AddWithCarryTests.cpp */; };
-		96B7045D2EB8687400A4414C /* main_6502.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B7043E2EB8687400A4414C /* main_6502.cpp */; };
 		96B7045E2EB8687400A4414C /* main_6502.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704292EB8687400A4414C /* main_6502.cpp */; };
-		96B7045F2EB8687400A4414C /* 6502AND_EOR_ORA_Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704312EB8687400A4414C /* 6502AND_EOR_ORA_Tests.cpp */; };
-		96B704602EB8687400A4414C /* 6502CompareRegisterTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704332EB8687400A4414C /* 6502CompareRegisterTests.cpp */; };
-		96B704612EB8687400A4414C /* 6502LoadRegisterTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704372EB8687400A4414C /* 6502LoadRegisterTests.cpp */; };
-		96B704622EB8687400A4414C /* 6502StoreRegisterTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B7043B2EB8687400A4414C /* 6502StoreRegisterTests.cpp */; };
-		96B704632EB8687400A4414C /* 6502StatusFlagChangeTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B7043A2EB8687400A4414C /* 6502StatusFlagChangeTests.cpp */; };
-		96B704642EB8687400A4414C /* 6502TransferRegisterTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B7043D2EB8687400A4414C /* 6502TransferRegisterTests.cpp */; };
-		96B704652EB8687400A4414C /* 6502IncrementDecrementTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96B704342EB8687400A4414C /* 6502IncrementDecrementTests.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -275,24 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B704542EB8687400A4414C /* 6502ShiftsTests.cpp in Sources */,
-				96B704552EB8687400A4414C /* 6502SystemFunctionsTests.cpp in Sources */,
 				96B704562EB8687400A4414C /* m6502.cpp in Sources */,
-				96B704572EB8687400A4414C /* 6502LoadPrgTests.cpp in Sources */,
-				96B704582EB8687400A4414C /* 6502StackOperationsTests.cpp in Sources */,
-				96B704592EB8687400A4414C /* 6502JumpsAndCallsTests.cpp in Sources */,
-				96B7045A2EB8687400A4414C /* 6502BranchTests.cpp in Sources */,
 				96B7045B2EB8687400A4414C /* core_api_stub.cpp in Sources */,
-				96B7045C2EB8687400A4414C /* 6502AddWithCarryTests.cpp in Sources */,
-				96B7045D2EB8687400A4414C /* main_6502.cpp in Sources */,
 				96B7045E2EB8687400A4414C /* main_6502.cpp in Sources */,
-				96B7045F2EB8687400A4414C /* 6502AND_EOR_ORA_Tests.cpp in Sources */,
-				96B704602EB8687400A4414C /* 6502CompareRegisterTests.cpp in Sources */,
-				96B704612EB8687400A4414C /* 6502LoadRegisterTests.cpp in Sources */,
-				96B704622EB8687400A4414C /* 6502StoreRegisterTests.cpp in Sources */,
-				96B704632EB8687400A4414C /* 6502StatusFlagChangeTests.cpp in Sources */,
-				96B704642EB8687400A4414C /* 6502TransferRegisterTests.cpp in Sources */,
-				96B704652EB8687400A4414C /* 6502IncrementDecrementTests.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
