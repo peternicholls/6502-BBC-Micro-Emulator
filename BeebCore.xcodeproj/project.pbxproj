@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961C94402EB97F8F00929DF3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		961C94562EB9801F00929DF3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		961C94572EB9802300929DF3 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
 		96AE0F022EB856320011A295 /* libBeebCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBeebCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B704282EB8687400A4414C /* m6502.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = m6502.cpp; sourceTree = "<group>"; };
 		96B704292EB8687400A4414C /* main_6502.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_6502.cpp; sourceTree = "<group>"; };
@@ -53,10 +56,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		96AE0F002EB856320011A295 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -64,11 +65,14 @@
 		96AE0EF92EB856320011A295 = {
 			isa = PBXGroup;
 			children = (
+				961C94562EB9801F00929DF3 /* .gitignore */,
+				961C94572EB9802300929DF3 /* .gitmodules */,
 				96B704482EB8687400A4414C /* 6502 */,
 				96B704492EB8687400A4414C /* CMakeLists.txt */,
 				96B7044A2EB8687400A4414C /* CONTRIBUTING.md */,
 				96B7044D2EB8687400A4414C /* include */,
 				96B7044E2EB8687400A4414C /* make_VS2017.bat */,
+				961C94402EB97F8F00929DF3 /* LICENSE */,
 				96B7044F2EB8687400A4414C /* README.md */,
 				96B704512EB8687400A4414C /* src */,
 				96AE0F032EB856320011A295 /* Products */,
@@ -193,12 +197,10 @@
 /* Begin PBXHeadersBuildPhase section */
 		96AE0EFE2EB856320011A295 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				96B704522EB8687400A4414C /* m6502.h in Headers */,
 				96B704532EB8687400A4414C /* core_api.h in Headers */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -213,11 +215,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = BeebCore;
-			packageProductDependencies = (
-			);
 			productName = BeebCore;
 			productReference = 96AE0F022EB856320011A295 /* libBeebCore.a */;
 			productType = "com.apple.product-type.library.static";
@@ -245,7 +243,7 @@
 			);
 			mainGroup = 96AE0EF92EB856320011A295;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 96AE0F032EB856320011A295 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,18 +256,16 @@
 /* Begin PBXSourcesBuildPhase section */
 		96AE0EFF2EB856320011A295 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				96B704562EB8687400A4414C /* m6502.cpp in Sources */,
 				96B7045B2EB8687400A4414C /* core_api_stub.cpp in Sources */,
 				96B7045E2EB8687400A4414C /* main_6502.cpp in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		96AE0F0B2EB856320011A295 /* Debug */ = {
+		96AE0F0B2EB856320011A295 /* Debug configuration for PBXProject "BeebCore" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +327,7 @@
 			};
 			name = Debug;
 		};
-		96AE0F0C2EB856320011A295 /* Release */ = {
+		96AE0F0C2EB856320011A295 /* Release configuration for PBXProject "BeebCore" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,7 +382,7 @@
 			};
 			name = Release;
 		};
-		96AE0F0E2EB856320011A295 /* Debug */ = {
+		96AE0F0E2EB856320011A295 /* Debug configuration for PBXNativeTarget "BeebCore" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -404,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		96AE0F0F2EB856320011A295 /* Release */ = {
+		96AE0F0F2EB856320011A295 /* Release configuration for PBXNativeTarget "BeebCore" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -428,19 +424,17 @@
 		96AE0EFD2EB856320011A295 /* Build configuration list for PBXProject "BeebCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96AE0F0B2EB856320011A295 /* Debug */,
-				96AE0F0C2EB856320011A295 /* Release */,
+				96AE0F0B2EB856320011A295 /* Debug configuration for PBXProject "BeebCore" */,
+				96AE0F0C2EB856320011A295 /* Release configuration for PBXProject "BeebCore" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		96AE0F0D2EB856320011A295 /* Build configuration list for PBXNativeTarget "BeebCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96AE0F0E2EB856320011A295 /* Debug */,
-				96AE0F0F2EB856320011A295 /* Release */,
+				96AE0F0E2EB856320011A295 /* Debug configuration for PBXNativeTarget "BeebCore" */,
+				96AE0F0F2EB856320011A295 /* Release configuration for PBXNativeTarget "BeebCore" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
